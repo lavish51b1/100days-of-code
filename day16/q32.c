@@ -11,8 +11,8 @@ int main() {
         n = n / 10;
     }
     if(temp == rev)
-        printf("Palindrome");
+        printf("Palindrome\n");
     else
-        printf("Not Palindrome");
+        printf("Not Palindrome\n");
     return 0;
 }

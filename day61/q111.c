@@ -16,6 +16,7 @@ int main(){
         }
         else{
             int f=0;
+            
             for(int x=i;x<=j;x++){
                 if(arr[x]<0){
                     printf("%d ",arr[x]);

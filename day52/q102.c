@@ -18,6 +18,7 @@ int main() {
             break;
         }
     }
+    
 
     printf("%d", ans);
     return 0;

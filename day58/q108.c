@@ -17,6 +17,7 @@ int main() {
         }
         ans[i] = p;
     }
+    
 
     for(int i=0; i<n; i++){
         printf("%d ", ans[i]);

@@ -17,6 +17,7 @@ int main() {
                 break;
             }
         }
+        
         if(i == n-1) printf("%d", nxt);
         else printf("%d,", nxt);
     }

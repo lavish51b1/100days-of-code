@@ -10,6 +10,7 @@ int main() {
     }
 
     int max = -1000000000;
+    
 
     for(int i=0; i<=n-k; i++){
         int s = 0;

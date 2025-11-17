@@ -26,6 +26,7 @@ int main() {
             break;
         }
     }
+    
 
     printf("%d %d", first, last);
     return 0;

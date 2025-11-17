@@ -16,6 +16,7 @@ int main() {
                 prev = arr[j];
                 break;
             }
+            
         }
         if(i == n-1) printf("%d", prev);
         else printf("%d,", prev);

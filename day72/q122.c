@@ -5,6 +5,7 @@ int main(){
     fp = fopen("info.txt","r");
 
     if(fp == NULL){
+        
         printf("File not found!");
         return 0;
     }
@@ -12,6 +13,7 @@ int main(){
     char line[200];
 
     while(fgets(line,200,fp) != NULL){
+
         printf("%s", line);
     }
 

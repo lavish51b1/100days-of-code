@@ -2,6 +2,7 @@
 
 int main(){
     FILE *fp;
+    
     fp = fopen("info.txt","a");
 
     if(fp == NULL){

@@ -24,5 +24,6 @@ int main(){
     }
 
     while(i<m) printf("%d ",a[i++]);
+    
     while(j<n) printf("%d ",b[j++]);
 }

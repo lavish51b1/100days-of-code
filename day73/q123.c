@@ -4,6 +4,7 @@ int main(){
     FILE *fp = fopen("sample.txt","r");
 
     if(fp == NULL){
+        
         printf("File not found!");
         return 0;
     }

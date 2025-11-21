@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 int main(){
+    
     char src[50], dest[50];
 
     printf("Source file: ");

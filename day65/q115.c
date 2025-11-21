@@ -18,6 +18,7 @@ int main(){
     }
 
     for(int i=0;i<26;i++){
+        
         if(count[i]!=0){
             printf("Not Anagram");
             return 0;
